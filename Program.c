@@ -2,10 +2,10 @@
 
 int main()
 {
-    float name;
+    char name[30];
     printf("Welcome to Hacktoberfest 2020\n");
     printf("Enter your name : ");//Get User name
-    scanf("%d",&yourname);
+    scanf("%d",&name);
 
 
     return 0;
