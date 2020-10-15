@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    char yourName[30];
+    printf("Welcome to Hacktoberfest 2020\n");
+    printf("Enter your name : ");//Get User name
+    scanf("%s",yourName);//User inputs the name
+
+
+    return 0;
+}
