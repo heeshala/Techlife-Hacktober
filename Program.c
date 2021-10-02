@@ -1,12 +1,12 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 int main()
 {
-    float name;
-    printf("Welcome to Hacktoberfest 2020\n");
-    printf("Enter your name : ");//Get User name
-    scanf("%d",&yourname);//User inputs the name
-
-
+   char name[25];
+    printf("Welcome to Hacktoberfest 2021\n");
+    printf("Enter your name : \n");   //Get User name
+    scanf("%[^\n]s",&name);  //User inputs the name
+    printf("\nYour name is = %s",name);
+    getch();
     return 0;
 }
